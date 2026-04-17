@@ -1,11 +1,14 @@
 body{
-    background:linear-gradient( to bottom right, rgb(253, 209, 255), rgb(249, 249, 153));
+    background: linear-gradient(45deg, rgb(255, 159, 210), rgb(248, 139, 215), rgb(249, 249, 153), rgb(148, 249, 163), rgb(209, 232, 255), rgb(201, 126, 254), rgb(255, 143, 255));
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1{
+    text-shadow: 2px 2px 3px rgb(133, 155, 92);
 }
 h1, h4, h2, h3{
     font-family: cursive;
     text-align: center;
-    color: rgb(161, 45, 179);
+    color: rgb(45, 74, 179);
 }
 p{
     color: rgb(36, 30, 37);
@@ -18,7 +21,7 @@ a:hover{
     margin: 0 auto;
 }
 .wrapper > div {
-    border: solid rgb(254, 190, 255) 2px;
+    border: solid rgb(190, 209, 255) 2px;
     border-radius: 4px;
     padding: 1em;
     background-color: rgb(252, 241, 241);
