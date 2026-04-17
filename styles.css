@@ -1,3 +1,43 @@
 body{
-    background-color: rgb(247, 250, 235);
+    background:linear-gradient( to bottom right, rgb(253, 209, 255), rgb(249, 249, 153));
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1, h3{
+    font-family: cursive;
+    text-align: center;
+    color: rgb(161, 45, 179);
+}
+a:hover{
+    color: rgb(226, 43, 198);
+}
+.wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.wrapper > div {
+    border: solid rgb(254, 190, 255) 2px;
+    border-radius: 4px;
+    padding: 1em;
+    background-color: rgb(252, 241, 241);
+}
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4px;
+    grid-auto-rows: minmax(100px, auto);
+}
+.header {
+    grid-column: 1 / 10;
+    grid-row: 1;
+}
+.sidebar {
+    grid-column: 1;
+    grid-row: 2 / 7;
+}
+.one {
+    grid-row: 2 / 7;
+    grid-column: 2 / 10;
+}
+.footer{
+    grid-column: 1 / 10;
 }
