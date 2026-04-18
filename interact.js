@@ -5,5 +5,5 @@ function enterName()
     let greeting = document.getElementById("greeting");
     let briefMessage = document.getElementById("message");
 
-    greeting.innerHTML = "Thank you for your message " + name + "!";
+    greeting.innerHTML = "Thank you for your message  " + name + "!!";
 }
